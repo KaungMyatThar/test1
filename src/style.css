@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-style{
+    width: 90vw;
+    max-width: 1170px;
+    margin: 3rem auto;
+    display: grid;
+    gap: 2rem;
+}
+@media screen and (min-width : 768px){
+    .main-style{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.card{
+    border-radius: 20px;
+    background: aqua;
+    padding: 1rem;
+}
